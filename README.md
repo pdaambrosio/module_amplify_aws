@@ -46,6 +46,6 @@ module "example" {
 
 | Name | Description |
 |------|-------------|
-| <a name="output_amplify_app_id"></a> [amplify\_app\_id](#output\_amplify\_app\_id) | n/a |
-| <a name="output_amplify_app_url"></a> [amplify\_app\_url](#output\_amplify\_app\_url) | n/a |
+| <a name="output_amplify_app_id"></a> [amplify\_app\_id](#output\_amplify\_app\_id) | `"value of amplify app id"` |
+| <a name="output_amplify_app_url"></a> [amplify\_app\_url](#output\_amplify\_app\_url) | `"value of amplify app url"` |
 <!-- END_AUTOMATED_TF_DOCS_BLOCK -->
