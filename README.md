@@ -36,11 +36,11 @@ module "example" {
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_app_name"></a> [app\_name](#input\_app\_name) | AWS Amplify App Name | `string` | `"my-amplify"` | no |
-| <a name="input_branch_name"></a> [branch\_name](#input\_branch\_name) | AWS Amplify App Repo Branch Name | `string` | `"master"` | no |
-| <a name="input_domain_name"></a> [domain\_name](#input\_domain\_name) | AWS Amplify Domain Name | `string` | `"awsamplifyapp.com"` | no |
-| <a name="input_repository"></a> [repository](#input\_repository) | github repo url | `string` | `"your GitHub repo url"` | no |
-| <a name="input_token"></a> [token](#input\_token) | github token to connect github repo | `string` | `"your GitHub Token"` | no |
+| <a name="input_app_name"></a> [app\_name](#input\_app\_name) | AWS Amplify App Name | `string` | `"my-amplify"` | yes |
+| <a name="input_branch_name"></a> [branch\_name](#input\_branch\_name) | AWS Amplify App Repo Branch Name | `string` | `"master"` | yes |
+| <a name="input_domain_name"></a> [domain\_name](#input\_domain\_name) | AWS Amplify Domain Name | `string` | `"awsamplifyapp.com"` | yes |
+| <a name="input_repository"></a> [repository](#input\_repository) | github repo url | `string` | `"your GitHub repo url"` | yes |
+| <a name="input_token"></a> [token](#input\_token) | github token to connect github repo | `string` | `"your GitHub Token"` | yes |
 
 ## Outputs
 
